@@ -1,0 +1,27 @@
+{
+  "name": "example-amdine",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node entrypoint.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DavidBernal/example-amdine.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DavidBernal/example-amdine/issues"
+  },
+  "homepage": "https://github.com/DavidBernal/example-amdine#readme",
+  "dependencies": {
+    "@hapi/hapi": "^20.2.1",
+    "amdine": "^1.5.1",
+    "amdine-loader": "^1.0.2"
+  }
+}
